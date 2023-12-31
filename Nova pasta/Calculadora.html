@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="conta.js">
+    <link rel="stylesheet" href="fontawesome-free-6.5.1-web\fontawesome-free-6.5.1-web\css/all.min.css">
+    <title>Calculador</title>
+</head>
+
+<body>
+
+
+    <main>
+
+        <div id="corpo-calc">
+            <table>
+                <p id="resultado"> </p>
+                <tr>
+                    <td><button onclick="clean()">C</button></td>
+                    <td><button onclick="back()"><</button></td>
+                    <td><button onclick="porcentagem('**')">%</button></td>
+                    <td><button onclick="insert('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('7')">7</button></td>
+                    <td><button onclick="insert('8')">8</button></td>
+                    <td><button onclick="insert('9')">9</button></td>
+                    <td><button onclick="insert('*')">X</button></td>
+                </tr>
+                
+                <tr>
+                    <td><button onclick="insert('4')">4</button></td>
+                    <td><button onclick="insert('5')">5</button></td>
+                    <td><button onclick="insert('6')">6</button></td>
+                    <td><button onclick="insert('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('1')">1</button></td>
+                    <td><button onclick="insert('2')">2</button></td>
+                    <td><button onclick="insert('3')">3</button></td>
+                    <td><button onclick="insert('+')">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="insert('0')">0</button></td>
+                    <td><button onclick="insert('.')">.</button></td>
+                    <td colspan="2"><button style="width: 7.9rem;" onclick="calcular()">=</button></td>
+                </tr>
+            </table>
+
+        </div>
+
+    </main>
+
+        <address>por: Luiz Gustavo de Oliveira Santaigo</address>
+
+    <script src="conta.js"></script>
+</body>
+
+
+</html>
